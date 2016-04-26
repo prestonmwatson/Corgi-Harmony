@@ -6,3 +6,31 @@ body {
 a {
   color: #00B7FF;
 }
+
+.buttons {
+  width: 130px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+#bio {
+  /*border: 5px solid black;*/
+  text-align: center;
+  bottom-padding: 10px;
+}
+
+#pic {
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  border: 5px solid black;
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  width: 500px
+}

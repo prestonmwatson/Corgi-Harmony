@@ -3,9 +3,24 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div id="container">
+      <div id="pic" style="background-image: url(<%=url%>)">
+      </div>
+          <h1>BIO</h1>
+            <hr>
+            <div id="bio">
+              <h2><%=name%>, <%=age%></h2>
+              </div>
+             <div class="buttons">
+                <a class="alert button" id="no" href="#">Pass</a>
+                <a class="success button" id="yes" href="#">Like</a>
+            </div>
+
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+      <script src="../javascripts/script.js"></script>
   </body>
 </html>
